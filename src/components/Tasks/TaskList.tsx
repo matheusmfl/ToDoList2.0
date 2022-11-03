@@ -8,8 +8,8 @@ interface tasks{
 }
 
 export function TaskList({taskContent, taskHasComplete} : tasks) {
-  const [contador, SetContador] = useState(['']);
-  SetContador([...contador, taskContent])
+  // const [contador, SetContador] = useState(['']);
+  // SetContador([...contador, taskContent])
 
   return (
     <>
